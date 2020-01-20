@@ -14,7 +14,7 @@ body {
 ul{
     display: grid;
     grid-template-columns: repeat(10,10vw);
-    grid-template-rows: repeat(12,5vw);
+    grid-template-rows: repeat(15,5vw);
     background: #FFF;
     max-width: 100%;
     margin-left: auto;
@@ -154,7 +154,4 @@ li:nth-child(29){
     background: black;
     grid-column: span 3;
 }
-li:nth-child(30){
-    background: orange;
-    grid-row: span 10;
-}
+
